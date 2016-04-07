@@ -1,7 +1,5 @@
-# hippo-custom-session-pool-demo
-Hippo CMS demo in how to use Custom Session Pools with the HST
+# Hippo CMS demo in how to use Custom Session Pools with the HST
 
-#Custom Session Pools
 
 Introduction
 Case Study
@@ -131,7 +129,7 @@ The following section will describe which implementation actions need to be take
 #### Users
 
 First create a technical user for each site group:
-
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <sv:node sv:name="sitegroup-A-liveuser" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -150,12 +148,13 @@ First create a technical user for each site group:
     <sv:value>true</sv:value>
   </sv:property>
 </sv:node>
-
+```
 * notice that this is a system user and the passkey is provided by the jvm!
 #### Groups
 
 Then add the membership of the user to the group as we do as usual:
 
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <sv:node sv:name="sitegroup-A-group" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -168,7 +167,7 @@ Then add the membership of the user to the group as we do as usual:
     <sv:value>internal</sv:value>
   </sv:property>
 </sv:node>
-
+```
 
 #### Domains
 
