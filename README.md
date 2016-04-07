@@ -150,6 +150,7 @@ First create a technical user for each site group:
 </sv:node>
 ```
 * notice that this is a system user and the passkey is provided by the jvm!
+
 #### Groups
 
 Then add the membership of the user to the group as we do as usual:
