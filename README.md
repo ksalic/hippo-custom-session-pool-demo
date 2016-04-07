@@ -344,8 +344,6 @@ Add to the same xml file as the configuration for the session pools and overwrit
 
 ```
 
-## Demo and Source
-
 
 
 
