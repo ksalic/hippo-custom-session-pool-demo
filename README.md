@@ -341,7 +341,9 @@ Add to the same xml file as the configuration for the session pools and overwrit
  <constructor-arg ref="javax.jcr.Credentials.preview"/>
  <constructor-arg ref="javax.jcr.Credentials.writable"/>
 </bean>
+
 ```
+
 ## Demo and Source
 
 
